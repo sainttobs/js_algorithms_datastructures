@@ -89,3 +89,4 @@ console.log(setA.subset(setB));
 console.log(setB.intersection(setA).values());
 setB.remove("b");
 console.log(setB.values());
+console.log(setB.has("f"));
